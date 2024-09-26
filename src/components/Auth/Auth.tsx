@@ -21,6 +21,7 @@ const Auth = () => {
       setAuthenticated(true);
       navigate('/home');
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[success]);
   
   const handleLogin = async (credentials:any) => {
