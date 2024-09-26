@@ -1,5 +1,4 @@
 import { Action, action, Thunk, thunk } from "easy-peasy";
-import instance from "../services/axios";
 import { setCookie, getCookie } from "typescript-cookie";
 import axios from "axios";
 
